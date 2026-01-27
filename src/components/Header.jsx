@@ -1,7 +1,7 @@
 import { Menu, Sparkle, X } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 
-const menu = ["home", "about", "services", "portfolio", "team", "contact"]
+const menu = ["home", "services", "about",  "disorders", "symptoms", "contact"]
 
 function Header() {
 

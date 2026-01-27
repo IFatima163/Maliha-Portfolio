@@ -14,7 +14,7 @@ function Hero() {
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10'>
                 <div className='lg:grid lg:grid-cols-2 lg:gap-35 items-center'>
                     <div className='mb-12 lg:mb-0'>
-                        <div 
+                        {/* <div 
                             className='
                                 inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-6
                             '
@@ -23,7 +23,7 @@ function Hero() {
                             <span className='text-white text-sm font-medium'>
                                 Available for new projects
                             </span>
-                        </div>
+                        </div> */}
                         <h1 className='text-5xl md:text-7xl font-black text-white mb-6 leading-tight'>
                             Create{" "}
                             <span 

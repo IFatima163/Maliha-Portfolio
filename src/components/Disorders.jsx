@@ -84,7 +84,7 @@ const projects = [
     },
 ]
 
-function Portfolio() {
+function Disorders() {
     const [activeFilter, setActiveFilter] = useState("all")
 
     const filteredProjects = 
@@ -95,7 +95,7 @@ function Portfolio() {
 
     return (
         <section 
-            id='portfolio'
+            id='disorders'
             className='py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden'
         >
             {/* Background Elements */}
@@ -120,9 +120,9 @@ function Portfolio() {
                         </span>
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
-                        Featured
+                        General
                         <span className='block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600'>
-                            Projects
+                            Disorders
                         </span>
                     </h2>
 
@@ -311,4 +311,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio
+export default Disorders
