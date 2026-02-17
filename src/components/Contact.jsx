@@ -7,28 +7,28 @@ const contactMethods = [
         title: "Email Us",
         description: "Get in touch via email",
         details: ["hello@nexus.com", "support@nexus.com"],
-        color: "from-purple-500 to-pink-500"
+        color: "from-purple-300 to-pink-300"
     },
     {
         icon: Phone,
         title: "Call Us",
         description: "Speak with our team",
         details: ["+1 (555) 123-4567", "Mon-Fri 9AM-6PM EST"],
-        color: "from-blue-500 to-cyan-500"
+        color: "from-blue-300 to-cyan-300"
     },
     {
         icon: MapPin,
         title: "Visit Us",
         description: "Come to our office",
         details: ["123 Innovation Street", "San Francisco, CA 94105"],
-        color: "from-green-500 to-teal-500"
+        color: "from-green-300 to-teal-300"
     },
     {
         icon: MessageCircle,
         title: "Live Chat",
         description: "Chat with support",
         details: ["Available 24/7", "Instant responses"],
-        color: "from-yellow-500 to-orange-500"
+        color: "from-yellow-300 to-orange-300"
     },
 ]
 
@@ -74,13 +74,13 @@ function Contact() {
                         to-pink-100 rounded-full mb-6
                     '
                 >
-                    <span className='text-purple-600 font-semibold'>Get in Touch</span>
+                    <span className='text-purple-300 font-semibold'>Get in Touch</span>
                 </div>
                 <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
                     Let's Start
                     <span 
                         className='
-                            block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600
+                            block text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300
                         '
                     >
                         Something Great
@@ -159,7 +159,7 @@ function Contact() {
                                     onChange={handleChange}
                                     className='
                                         w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2
-                                        focus:ring-purple-500 focus:border-transparent transition-all 
+                                        focus:ring-purple-300 focus:border-transparent transition-all 
                                         duration-300 bg-gray-50 focus:bg-white
                                     '
                                     placeholder='John Doe'
@@ -180,7 +180,7 @@ function Contact() {
                                     required
                                     className='
                                         w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2
-                                        focus:ring-purple-500 focus:border-transparent transition-all 
+                                        focus:ring-purple-300 focus:border-transparent transition-all 
                                         duration-300 bg-gray-50 focus:bg-white
                                     '
                                     placeholder='john@company.com'
@@ -202,7 +202,7 @@ function Contact() {
                                     onChange={handleChange}
                                     className='
                                         w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2
-                                        focus:ring-purple-500 focus:border-transparent transition-all 
+                                        focus:ring-purple-300 focus:border-transparent transition-all 
                                         duration-300 bg-gray-50 focus:bg-white
                                     '
                                     placeholder='your company'
@@ -221,7 +221,7 @@ function Contact() {
                                     onChange={handleChange}
                                     className='
                                         w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2
-                                        focus:ring-purple-500 focus:border-transparent transition-all 
+                                        focus:ring-purple-300 focus:border-transparent transition-all 
                                         duration-300 bg-gray-50 focus:bg-white
                                     '
                                 >
@@ -248,7 +248,7 @@ function Contact() {
                                 required
                                 className='
                                     w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2
-                                    focus:ring-purple-500 focus:border-transparent transition-all 
+                                    focus:ring-purple-300 focus:border-transparent transition-all 
                                     duration-300 bg-gray-50 focus:bg-white
                                 '
                                 placeholder='your company'
@@ -257,8 +257,8 @@ function Contact() {
                         <button
                             type='submit'
                             className='
-                                w-fit bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700
-                                hover:to-pink-700 text-white px-6 py-4 rounded-xl font-semibold
+                                w-fit bg-gradient-to-r from-purple-300 to-pink-300 hover:from-purple-400
+                                hover:to-pink-400 text-white px-6 py-4 rounded-xl font-semibold
                                 transition-all duration-300 flex items-center justify-center shadow-lg
                                 hover:shadow-xl hover:scale-105
                             '
@@ -273,7 +273,7 @@ function Contact() {
                 <div className='space-y-8'>
                     <div 
                         className='
-                            bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl 
+                            bg-gradient-to-br from-purple-300 to-pink-300 rounded-3xl 
                             p-8 text-white relative overflow-hidden
                         '
                     >
@@ -327,7 +327,7 @@ function Contact() {
                     {/* Response Time */}
                     <div className='bg-white rounded-2xl p-6 shadow-lg border border-gray-100'>
                         <div className='flex items-center mb-4'>
-                            <Clock className='w-6 h-6 text-purple-600 mr-2'/>
+                            <Clock className='w-6 h-6 text-purple-300 mr-2'/>
                             <h3 className='text-lg font-bold text-gray-900'>
                                 Response Time
                             </h3>
@@ -384,13 +384,13 @@ function Contact() {
             {/* Newsletter */}
             <div 
                 className='
-                    bg-gradient-to-r from-purple-600 to-pink-600 text-white relative overflow-hidden
-                    backdrop-blur-sm rounded-2xl p-8 mb-12 border border-purple-500/20 mt-20
+                    bg-gradient-to-r from-purple-300 to-pink-300 text-white relative overflow-hidden
+                    backdrop-blur-sm rounded-2xl p-8 mb-12 border border-purple-300/20 mt-20
                 '
             >
                 <div className='text-center'>
                     <h3 className='text-2xl font-bold mb-4'>Stay Updated</h3>
-                    <p  className='text-gray-300 mb-6 max-w-2xl mx-auto'>
+                    <p  className='text-gray-500 mb-6 max-w-2xl mx-auto'>
                         Subscribe to our newsletter for the latest insights, tips, and updates from the world of digital innovation.
                     </p>
                     <div className='flex flex-col sm:flex-row gap-4 max-w-md mx-auto'>
@@ -399,8 +399,8 @@ function Contact() {
                             placeholder='Enter your email'
                             className='
                                 flex-1 px-4 py-3 bg-white/10 backdrop-blur-sm border border-white/20
-                                rounded-xl text-white placeholder-gray-300 focus:outline-none
-                                focus:ring-2 focus:ring-purple-500
+                                rounded-xl text-white placeholder-gray-500 focus:outline-none
+                                focus:ring-2 focus:ring-purple-300
                             '
                         />
                         <button 
