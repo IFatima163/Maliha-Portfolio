@@ -14,28 +14,28 @@ const values = [
         title: "Strategic Vision",
         description: 
             "We align every design decision with your business objectives and user needs.",
-        color: "from-purple-500 to-pink-500"
+        color: "from-purple-300 to-pink-300"
     },
     {
         icon: Users,
         title: "Collaborative Spirit",
         description: 
             "Your success is our success. We work as an extension of your team.",
-        color: "from-blue-500 to-cyan-500"
+        color: "from-blue-300 to-cyan-300"
     },
     {
         icon: Zap,
         title: "Innovation Focus",
         description: 
             "We embrace cutting-edge technologies to deliver future-ready solutions.",
-        color: "from-green-500 to-teal-500"
+        color: "from-green-300 to-teal-300"
     },
     {
         icon: Award,
         title: "Quality Excellence",
         description: 
             "Every pixel, every line of code is crafted with meticulous attention to detail.",
-        color: "from-yellow-500 to-orange-500"
+        color: "from-yellow-300 to-orange-300"
     },
 ]
 
@@ -47,7 +47,7 @@ function About() {
                 <div className='absolute inset-0 opacity-5'>
                     <div 
                         className='
-                            absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-600 to-pink-600 transform rotate-12 scale-150
+                            absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-300 to-pink-300 transform rotate-12 scale-150
                         '
                     >
                     </div>
@@ -60,7 +60,7 @@ function About() {
                         </div>
                         <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
                             Crafting Digital {" "}
-                            <span className='block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600'>
+                            <span className='block text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300'>
                                 Excellence
                             </span>
                         </h2>
@@ -90,7 +90,7 @@ function About() {
 
                                     <div
                                         className={`
-                                            w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-6 
+                                            w-16 h-16 bg-gradient-to-r from-purple-300 to-pink-300 rounded-xl flex items-center justify-center mb-6 
                                             group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 z-10
                                         `}
                                     >
@@ -125,7 +125,7 @@ function About() {
 
                                     <div
                                         className={`
-                                            w-16 h-16 bg-gradient-to-r ${value.color} from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-6 
+                                            w-16 h-16 bg-gradient-to-r ${value.color} from-purple-300 to-pink-300 rounded-xl flex items-center justify-center mb-6 
                                             group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 z-10
                                         `}
                                     >
@@ -146,7 +146,7 @@ function About() {
                     <div className='text-center mt-16'>
                         <div 
                             className='
-                                bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden
+                                bg-gradient-to-r from-purple-300 to-pink-300 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden
                             '
                         >
                             <div className='absolute inset-0 bg-black/10'></div>
@@ -159,7 +159,7 @@ function About() {
                                 </p>
                                 <button 
                                     className='
-                                        bg-white text-purple-600 px-8 py-4 rounded-2xl font-semibold 
+                                        bg-white text-purple-300 px-8 py-4 rounded-2xl font-semibold 
                                         hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-xl
                                     '
                                 >
