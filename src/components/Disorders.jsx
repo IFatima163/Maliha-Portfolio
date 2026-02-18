@@ -115,13 +115,13 @@ function Disorders() {
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 relative z-10'>
                 <div className='text-center mb-16'>
                     <div className='inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-100 to-pink-100 rounded-full mb-6'>
-                        <span className='text-purple-600 font-semibold text-sm'>
+                        <span className='text-purple-300 font-semibold text-sm'>
                             Our Portfolio
                         </span>
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
                         General
-                        <span className='block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600'>
+                        <span className='block text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300'>
                             Disorders
                         </span>
                     </h2>
@@ -141,7 +141,7 @@ function Disorders() {
                                     px-6 py-3 rounded-2xl font-semibold transition-all duration-300
                                     ${
                                         activeFilter === filter.id
-                                            ? "bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg scale-105"
+                                            ? "bg-gradient-to-r from-purple-300 to-pink-300 text-white shadow-lg scale-105"
                                             : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200 hover:border-purple-200"
                                     }
                                 `}
@@ -216,12 +216,12 @@ function Disorders() {
                                 </div>
 
                                 <div className='p-6'>
-                                    <div className='text-sm text-purple-600 font-semibold mb-2'>
+                                    <div className='text-sm text-purple-300 font-semibold mb-2'>
                                         {project.category}
                                     </div>
                                     <h3 
                                         className='
-                                            text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600
+                                            text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-300
                                             transition-all duration-300
                                         '
                                     >
@@ -237,7 +237,7 @@ function Disorders() {
                                                 <span 
                                                     className='
                                                         px-3 py-1 bg-gradient-to-r from-purple-50 to-pink-50 
-                                                        text-purple-600 text-xs font-medium rounded-full border 
+                                                        text-purple-300 text-xs font-medium rounded-full border 
                                                         border-purple-100'
                                                     key={tagindex}
                                                 >
@@ -249,8 +249,8 @@ function Disorders() {
 
                                     <button 
                                         className='
-                                            group/btn inline-flex items-center text-purple-600 font-semibold
-                                            hover:text-pink-600 transition-all duration-300
+                                            group/btn inline-flex items-center text-purple-300 font-semibold
+                                            hover:text-pink-300 transition-all duration-300
                                         '
                                     >
                                         View Project 
@@ -270,11 +270,11 @@ function Disorders() {
                 <div className='text-center mt-16'>
                     <div 
                         className='
-                            bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-8 text-white 
+                            bg-gradient-to-r from-purple-300 to-pink-300 rounded-3xl p-8 text-white 
                             relative overflow-hidden
                         '
                     >
-                        <div className='absolute isnet-0 bg-black/10'></div>
+                        <div className='absolute inset-0 bg-black/10'></div>
                         <div className='relative z-10'>
                             <h3 className='text-2xl mb-4 font-semibold'>
                                 Like What You See?
@@ -285,7 +285,7 @@ function Disorders() {
                             <div className='flex flex-col sm:flex-row gap-4 justify-center'>
                                 <button 
                                     className='
-                                        bg-white text-purple-600 px-6 py-3 rounded-xl font-semibold
+                                        bg-white text-purple-300 px-6 py-3 rounded-xl font-semibold
                                         hover:bg-gray-100 transition-colors duration-300 whitespace-nowrap
                                     '
                                 >
@@ -294,7 +294,7 @@ function Disorders() {
                                 <button 
                                     className='
                                         border-2 border-white text-white px-6 py-3 rounded-xl font-semibold
-                                        hover:bg-white hover:text-purple-600 transition-colors duration-300 whitespace-nowrap
+                                        hover:bg-white hover:text-purple-300 transition-colors duration-300 whitespace-nowrap
                                     '
                                 >
                                     Start your Project
