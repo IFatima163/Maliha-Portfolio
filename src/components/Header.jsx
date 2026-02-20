@@ -38,7 +38,7 @@ function Header() {
                         <div className='relative'>
                             <Sparkle 
                                 className={`
-                                    w-8 h-8 transition-all duration-300 ${isScrolled ? "text-purple-600" : "text-white" 
+                                    w-8 h-8 transition-all duration-300 ${isScrolled ? "text-purple-300" : "text-white" 
                                 }`}
                             />
                             {/* <div 
@@ -49,8 +49,8 @@ function Header() {
                         </div>
                         <h1 
                             className={`
-                                text-2xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text 
-                                transition-all duration-300 ${isScrolled ? "text-purple-600" : "text-white" 
+                                text-2xl font-black bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text 
+                                transition-all duration-300 ${isScrolled ? "text-purple-300" : "text-white" 
                             }`}
                         >
                             Nexus
@@ -66,7 +66,7 @@ function Header() {
                                     className={`
                                         capitalize font-medium transition-all duration-300 hover:scale-105 
                                         relative group ${isScrolled 
-                                        ? "text-gray-700 hover:text-purple-600" 
+                                        ? "text-gray-400 hover:text-purple-300" 
                                         : "text-white hover:text-purple-300" 
                                     }`}
                                 >
@@ -74,7 +74,7 @@ function Header() {
                                     {/* Hover effect */}
                                     <span 
                                         className='
-                                            absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-pink-500 
+                                            absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-200 to-pink-200 
                                             transition-all duration-300 group-hover:w-full
                                             '
                                         ></span>
@@ -104,7 +104,7 @@ function Header() {
                             return(
                                 <button 
                                     className='
-                                        block w-full text-left px-6 py-3 text-gray-700 hover:bg-gradient-to-r hover:from-purple-50 
+                                        block w-full text-left px-6 py-3 text-gray-400 hover:bg-gradient-to-r hover:from-purple-50 
                                         hover:to-pink-50 hover:text-purple capitalize font-medium transition-all duration-300
                                     ' onClick={scrollToSection(item)}
                                 >
