@@ -28,7 +28,7 @@ function Hero() {
                             Create{" "}
                             <span 
                                 className='
-                                    block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-yellow-400
+                                    block text-transparent bg-clip-text bg-gradient-to-r from-purple-200 via-pink-200 to-yellow-200
                                 '
                             >
                                 Amazing
@@ -43,8 +43,8 @@ function Hero() {
                         <div className='flex flex-col sm:flex-row gap-4 mb-8'>
                             <button 
                                 className='
-                                    group bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 
-                                    hover:to-pink-700 text-white px-8 py-4 rounded-2xl font-semibold 
+                                    group bg-gradient-to-r from-purple-300 to-pink-300 hover:from-purple-400 
+                                    hover:to-pink-400 text-white px-8 py-4 rounded-2xl font-semibold 
                                     transition-all duration-300 flex items-center justify-center shadow-2xl 
                                     hover:shadow-purple-500/25 hover:scale-105
                                 '
@@ -55,7 +55,7 @@ function Hero() {
 
                             <button 
                                 className='
-                                    group border-white/30 text-white hover:bg-white hover:text-purple-900 px-8 
+                                    group border-white/30 text-white hover:bg-white hover:text-purple-450 px-8 
                                     py-4 rounded-2xl font-semibold transition-all duration-300 flex items-center justify-center 
                                     shadow-2xl hover:shadow-purple-500/25 hover:scale-105
                                 '
@@ -87,7 +87,7 @@ function Hero() {
                         <div className='reltive bg-white/10 backdrop-blur-xl rounded-3xl p-8 border border-white/20 shadow-2xl'>
                             <div 
                                 className='
-                                    absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full animate-bounce
+                                    absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-r from-yellow-200 to-orange-200 rounded-full animate-bounce
                                 '
                             ></div>
 
@@ -95,7 +95,7 @@ function Hero() {
                                 <div className='flex items-center space-x-4 p-4 bg-white/10 rounded-2xl backdrop-blur-sm'>
                                     <div 
                                         className='
-                                            w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center
+                                            w-12 h-12 bg-gradient-to-r from-purple-300 to-pink-300 rounded-xl flex items-center justify-center
                                         '
                                     >
                                         <span className='text-white font-bold'>UI</span>
@@ -105,13 +105,13 @@ function Hero() {
                                         <p className='text-gray-300 text-sm'>Beautiful & Intutive interface</p>                                        
                                     </div>
                                     <div className='ml-auto'>
-                                        <div className='w-3 h-3 bg-green-400 rounded-full animate-pulse'></div>
+                                        <div className='w-3 h-3 bg-green-200 rounded-full animate-pulse'></div>
                                     </div>
                                 </div>                                
                                 <div className='flex items-center space-x-4 p-4 bg-white/10 rounded-2xl backdrop-blur-sm'>
                                     <div 
                                         className='
-                                            w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl 
+                                            w-12 h-12 bg-gradient-to-r from-blue-300 to-cyan-300 rounded-2xl 
                                             flex items-center justify-center backdrop-blur-sm
                                         '
                                     >
@@ -122,13 +122,13 @@ function Hero() {
                                         <p className='text-gray-300 text-sm'>Modern web application</p>
                                     </div>
                                     <div className='ml-auto'>
-                                        <div className='w-3 h-3 bg-green-400 rounded-full animate-pulse'></div>
+                                        <div className='w-3 h-3 bg-green-200 rounded-full animate-pulse'></div>
                                     </div>
                                 </div>
                                 <div className='flex items-center space-x-4 p-4 bg-white/10 rounded-2xl backdrop-blur-sm'>
                                     <div 
                                         className='
-                                            w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-2xl 
+                                            w-12 h-12 bg-gradient-to-r from-green-300 to-teal-300 rounded-2xl 
                                             flex items-center justify-center backdrop-blur-sm
                                         '
                                     >
@@ -139,7 +139,7 @@ function Hero() {
                                         <p className='text-gray-300 text-sm'>Performance & visibility</p>
                                     </div>
                                     <div className='ml-auto'>
-                                        <div className='w-3 h-3 bg-green-400 rounded-full animate-pulse'></div>
+                                        <div className='w-3 h-3 bg-green-200 rounded-full animate-pulse'></div>
                                     </div>
                                 </div>
                             </div>
