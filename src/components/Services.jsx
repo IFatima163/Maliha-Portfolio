@@ -13,7 +13,7 @@ const services = [
             "Visual Systems",
             "Printed Design",
         ],
-        color: "from-purple-500 to-pink-500",
+        color: "from-purple-200 to-pink-200",
         bgColor: "from-purple-50 to-pink-50",
     },
     {
@@ -27,7 +27,7 @@ const services = [
             "CMS Integration",
             "Performance Optimization",
         ],
-        color: "from-blue-500 to-cyan-500",
+        color: "from-blue-200 to-cyan-200",
         bgColor: "from-blue-50 to-cyan-50",
     },
     {
@@ -41,7 +41,7 @@ const services = [
             "React Native",
             "App Store Optimization",
         ],
-        color: "from-green-500 to-teal-500",
+        color: "from-green-200 to-teal-200",
         bgColor: "from-green-50 to-teal-50",
     },
     {
@@ -55,7 +55,7 @@ const services = [
             "Email Campaigns",
             "Influencer Marketing",
         ],
-        color: "from-yellow-500 to-orange-500",
+        color: "from-yellow-200 to-orange-200",
         bgColor: "from-yellow-50 to-orange-50",
     },
     {
@@ -69,7 +69,7 @@ const services = [
             "Conversion Optimization",
             "Custom Dashboards",
         ],
-        color: "from-red-500 to-pink-500",
+        color: "from-red-200 to-pink-200",
         bgColor: "from-red-50 to-pink-50",
     },
     {
@@ -83,7 +83,7 @@ const services = [
             "Digital Roadmap",
             "Technology Consulting",
         ],
-        color: "from-indigo-500 to-purple-500",
+        color: "from-indigo-200 to-purple-200",
         bgColor: "from-indigo-50 to-purple-50",
     },
 ]
@@ -112,7 +112,7 @@ function Services() {
                             inline-flex items-center px-4 py-4 bg-gradient-to-r from-purple-100 to-pink-100 rounded-full mb-6
                         '
                     >
-                        <span className='text-purple-600 font-semibold'>
+                        <span className='text-purple-300 font-semibold'>
                             Our Services
                         </span>
                     </div>
@@ -120,7 +120,7 @@ function Services() {
                         What We
                         <span 
                             className='
-                                block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600
+                                block text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300
                             '
                         >
                             Create
@@ -186,7 +186,7 @@ function Services() {
                                         Learn More
                                         <ArrowRight 
                                             className={`
-                                                ml-2 w-4 h-4 text-purple-500 group-hover:/btn:translate-x-1 
+                                                ml-2 w-4 h-4 text-purple-200 group-hover:/btn:translate-x-1 
                                                 transition-all duration-300 ${services.color}
                                             `}
                                         />
@@ -202,7 +202,7 @@ function Services() {
                     <div 
                         className='
                             inline-flex justify-center items-center space-x-4 bg-gradient-to-r 
-                            from-purple-600 to-pink-600 rounded-2xl p-6 text-white w-full
+                            from-purple-300 to-pink-300 rounded-2xl p-6 text-white w-full
                         '
                     >
                         <div>
@@ -213,7 +213,7 @@ function Services() {
                         </div>
                         <button 
                             className='
-                                bg-white text-purple-600 px-6 py-3 rounded-xl
+                                bg-white text-purple-300 px-6 py-3 rounded-xl
                                 font-semibold hover:bg-gray-100 transition-colors
                                 duration-300 whitespace-nowrap
                             '
