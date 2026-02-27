@@ -65,7 +65,7 @@ function Footer() {
                                     bg-clip-text text-transparent
                                 '
                             >
-                                Nexus
+                                MN Portfolio
                             </h3>
                         </div>
 
@@ -182,8 +182,8 @@ function Footer() {
                                     <Mail size={14}/>
                                 </div>
                                 <div>
-                                    <p className='text-white font-medium'>hello@nexus.com</p>
-                                    <p className='text-gray-300 text-sm'>support@nexus.com</p>
+                                    <p className='text-white font-medium'>hello@MNPortfolio.com</p>
+                                    <p className='text-gray-300 text-sm'>support@MNPortfolio.com</p>
                                 </div>
                             </div>
                             <div className='flex items-start space-x-3'>
@@ -226,7 +226,7 @@ function Footer() {
                 >
                     <div className='text-gray-300 text-sm mb-4 md:mb-0'>
                         <p>
-                            2025 Nexus. All right reserved. | Privacy Policy | Terms of Services | Cookie Policy
+                            2025 MN Portfolio. All right reserved. | Privacy Policy | Terms of Services | Cookie Policy
                         </p>
                     </div>
                     <button 

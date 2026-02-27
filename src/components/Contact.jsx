@@ -6,7 +6,7 @@ const contactMethods = [
         icon: Mail,
         title: "Email Us",
         description: "Get in touch via email",
-        details: ["hello@nexus.com", "support@nexus.com"],
+        details: ["hello@MNPortfolio.com", "support@MNPortfolio.com"],
         color: "from-purple-300 to-pink-300"
     },
     {

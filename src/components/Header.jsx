@@ -53,7 +53,7 @@ function Header() {
                                 transition-all duration-300 ${isScrolled ? "text-purple-300" : "text-white" 
                             }`}
                         >
-                            Nexus
+                            MN Portfolio
                         </h1>
                     </div>
                     
